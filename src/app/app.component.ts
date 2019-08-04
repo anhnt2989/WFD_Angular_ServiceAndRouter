@@ -7,7 +7,7 @@ import {Router} from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-service-countLifeTime';
+  title = 'Angular Service & Router';
   constructor(private router: Router) {}
   gotoTimelines() {
     this.router.navigate(['/timelines']);
