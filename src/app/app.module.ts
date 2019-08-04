@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TimelinesComponent } from './timelines/timelines.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import { YoutubePlaylistComponent } from './youtube-playlist/youtube-playlist.component';
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TimelinesComponent
+    TimelinesComponent,
+    YoutubePlaylistComponent,
+    YoutubePlayerComponent
   ],
   imports: [
     ReactiveFormsModule,
