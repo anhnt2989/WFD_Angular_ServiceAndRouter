@@ -11,6 +11,7 @@ import { DictionaryDetailComponent } from './dictionary-detail/dictionary-detail
 import { DictionaryPageComponent } from './dictionary-page/dictionary-page.component';
 import { DictionaryComponent } from './dictionary/dictionary.component';
 import {DictionaryService} from './dictionary.service';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {DictionaryService} from './dictionary.service';
     YoutubePlayerComponent,
     DictionaryDetailComponent,
     DictionaryPageComponent,
-    DictionaryComponent
+    DictionaryComponent,
+    HomeComponent
   ],
   imports: [
     ReactiveFormsModule,

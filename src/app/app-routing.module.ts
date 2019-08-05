@@ -6,9 +6,14 @@ import {YoutubePlayerComponent} from './youtube-player/youtube-player.component'
 import {DictionaryPageComponent} from './dictionary-page/dictionary-page.component';
 import {DictionaryDetailComponent} from './dictionary-detail/dictionary-detail.component';
 import {AuthGuard} from './auth.guard';
+import {HomeComponent} from './home/home.component';
 
 
 const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent
+  },
   {
     path: 'timelines',
     component: TimelinesComponent

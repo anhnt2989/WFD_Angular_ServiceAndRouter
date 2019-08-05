@@ -2,6 +2,6 @@
   English-Vietnamese Dictionary
 </h2>
 
-<input type="text" (change)="search($event.target.value)">
+<label for="input">Enter a word: <input id="input" class="form-control" type="text" (change)="search($event.target.value)"></label>
 
 <p *ngIf="word">Nghĩa của từ {{word.key}}: {{word.meaning}}</p>
