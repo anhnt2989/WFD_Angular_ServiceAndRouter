@@ -7,13 +7,19 @@ import { TimelinesComponent } from './timelines/timelines.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import { YoutubePlaylistComponent } from './youtube-playlist/youtube-playlist.component';
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
+import { DictionaryDetailComponent } from './dictionary-detail/dictionary-detail.component';
+import { DictionaryPageComponent } from './dictionary-page/dictionary-page.component';
+import { DictionaryComponent } from './dictionary/dictionary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TimelinesComponent,
     YoutubePlaylistComponent,
-    YoutubePlayerComponent
+    YoutubePlayerComponent,
+    DictionaryDetailComponent,
+    DictionaryPageComponent,
+    DictionaryComponent
   ],
   imports: [
     ReactiveFormsModule,
