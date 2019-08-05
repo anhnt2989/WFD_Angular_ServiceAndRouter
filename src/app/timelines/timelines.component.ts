@@ -9,7 +9,9 @@ import {DateUtilService} from '../date-util.service';
 export class TimelinesComponent implements OnInit {
 
   output = '';
-  constructor(private dateUtilService: DateUtilService) { }
+
+  constructor(private dateUtilService: DateUtilService) {
+  }
 
   ngOnInit() {
   }

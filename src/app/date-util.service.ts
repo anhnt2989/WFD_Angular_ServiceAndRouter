@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {
   addMonths,
   addYears,
@@ -11,7 +11,9 @@ import {
   providedIn: 'root'
 })
 export class DateUtilService {
-  constructor() {}
+  constructor() {
+  }
+
   getDiffToNow(diff: string | number | Date): string {
     const result: string[] = [];
     const now = new Date();

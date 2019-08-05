@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {YoutubeService} from '../youtube.service';
 
 @Component({
@@ -8,7 +8,8 @@ import {YoutubeService} from '../youtube.service';
 })
 export class YoutubePlaylistComponent implements OnInit {
 
-  constructor(public youtubeService: YoutubeService) { }
+  constructor(public youtubeService: YoutubeService) {
+  }
 
   ngOnInit() {
   }

@@ -13,11 +13,13 @@ export class YoutubePlayerComponent implements OnInit, OnDestroy {
 
   song: any;
   sub: Subscription;
+
   constructor(
     private youtubeService: YoutubeService,
     private activatedRouter: ActivatedRoute,
     private domSanitizer: DomSanitizer
-  ) { }
+  ) {
+  }
 
   ngOnInit() {
     this.sub = this.activatedRouter.paramMap.subscribe((paramMap: ParamMap) => {

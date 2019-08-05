@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +15,10 @@ export class YoutubeService {
     {id: '3O1_3zBUKM8', song: 'Naughty Boy - La la la ft. Sam Smith (Official Video)'},
     {id: 'mWRsgZuwf_8', song: 'Imagine Dragons - Demons (Official Video)'}
   ];
-  constructor() { }
+
+  constructor() {
+  }
+
   find(id: string) {
     return this.playlist.find(item => item.id === id);
   }

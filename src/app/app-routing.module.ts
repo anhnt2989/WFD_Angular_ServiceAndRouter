@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {NgModule} from '@angular/core';
 import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
 import {TimelinesComponent} from './timelines/timelines.component';
 import {YoutubePlaylistComponent} from './youtube-playlist/youtube-playlist.component';
@@ -44,4 +44,5 @@ const routes: Routes = [
   })],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
