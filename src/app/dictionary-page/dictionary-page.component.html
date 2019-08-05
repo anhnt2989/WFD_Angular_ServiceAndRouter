@@ -2,7 +2,7 @@
 <h2>
   Dictionary page
 </h2>
-
+<p>*Lưu ý: Login để tra cứu trực tiếp các từ bên dưới</p>
 <ul>
   <li *ngFor="let word of listWord">
     <a [routerLink]="['/dictionary', word.key]">{{ word.key }}</a>
@@ -11,7 +11,7 @@
 
 <div>
   <button class="btn btn-outline-success" (click)="authService.login()">Login</button>
-  <button class="btn-outline-danger" (click)="authService.logout()">Logout</button>
+  <button class="btn btn-outline-danger" (click)="authService.logout()">Logout</button>
 </div>
 
 <router-outlet></router-outlet>
