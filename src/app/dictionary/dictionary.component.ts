@@ -17,7 +17,7 @@ export class DictionaryComponent implements OnInit {
     const meaning = this.dictionaryService.search(word);
     this.word = {
       key: word,
-      meaning
+      meaning: meaning
     };
   }
 

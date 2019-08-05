@@ -10,6 +10,7 @@ import { YoutubePlayerComponent } from './youtube-player/youtube-player.componen
 import { DictionaryDetailComponent } from './dictionary-detail/dictionary-detail.component';
 import { DictionaryPageComponent } from './dictionary-page/dictionary-page.component';
 import { DictionaryComponent } from './dictionary/dictionary.component';
+import {DictionaryService} from './dictionary.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { DictionaryComponent } from './dictionary/dictionary.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DictionaryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
